@@ -3,7 +3,7 @@
 Instead of using classes or extra markup we leverage href attribute selectors.
 
 ## Demo
-http://codepen.io/joe-watkins/pen/wyehm
+http://codepen.io/joe-watkins/full/wyehm
 
 ## Usage
 Download in integrate the custom Icomoon web font into your project... then include the needed CSS. I've included the .scss file as well.
