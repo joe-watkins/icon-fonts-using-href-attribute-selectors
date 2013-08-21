@@ -1,6 +1,6 @@
-#Icon Fonts using href attribute selectors and a custom bundled Icomoon icon font.
+#Icon Fonts using href attribute selectors.
 
-Instead of using classes or extra markup we leverage href attribute selectors.
+Instead of using classes or extra markup we leverage href attribute selectors. In this example we are using a custom/bundled Icomoon icon font
 
 ## Demo
 http://codepen.io/joe-watkins/full/wyehm
