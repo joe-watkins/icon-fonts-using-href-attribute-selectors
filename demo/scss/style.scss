@@ -1,0 +1,88 @@
+@import "compass/css3";
+
+@import url(http://joe-watkins.io/icomoon-files-font/style.css);
+
+
+.icomoon-files {
+  a {
+      &:before {
+        font-family: 'IcoMoonFiles';
+      }
+  }
+  [href$=".pdf"]:before {
+    content:"\e008";
+    color:#DC0012;
+  }
+  [href$=".doc"]:before {
+    content:"\e00a";
+    color:#24468D;
+  }
+  [href$=".csv"]:before {
+    content:"\e00b";
+    color:#006E01;
+  }
+  [href$=".zip"]:before {
+    content:'\e00c';
+    color:#ED7A0E;
+  }
+  [href$=".ppt"]:before {
+    content: '\e00d';
+    color:#DC5900;
+  }
+}
+
+
+
+
+/* For presentation of demo - not needed */
+html {
+   background-color:#1d1f20;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background:linear-gradient(360deg, #1d1f20,#2f3031);
+  padding:30px;
+}
+
+h1,p {
+  text-align:center;
+  color:#f1f1f1;
+  text-shadow:1px 1px 1px #000;
+  a {
+    text-decoration:none;
+    color:#ED7A0E;
+    transition:all .2s ease;
+    &:hover {
+      color:#f1f1f1;
+    }
+    &:before {
+      padding-right:3px;
+    }
+  }
+}
+
+ul {
+  width:285px;
+  margin:0px auto;
+  padding:30px;
+  background:#1d1f20;
+  border:solid 1px #333;
+  border-radius:4px;
+  li {
+    line-height:50px;
+    list-style:none;
+    a {
+      text-decoration:none;
+      font-size:3em;
+      color:#f1f1f1;
+      text-shadow:1px 1px 1px #000;
+      &:before {
+        padding-right:8px;
+      }
+      &:hover {
+        color:#888;
+      }
+    }// a
+  } // li
+} // ul
